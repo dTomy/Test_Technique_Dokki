@@ -1,8 +1,22 @@
-import '../styles/App.css';
+import '../styles/App.css'
 import  '../datas/users.json'
-import { Component } from 'react';
+import Users from './Users'
 
-class App extends React.Component{
+function App() {
+	return (
+		<div>
+			<Users />
+		</div>
+	)
+}
+
+export default App
+
+
+
+//import { Component } from 'react';
+
+/*class App extends React.Component{
   state  = {
     post: {}
   }
@@ -26,6 +40,4 @@ class App extends React.Component{
       {(this.state.post.firstname) ? this.state.post.firstName : <p>Chargement...</p>}
     </div>
   }
-}
-
-export default App;
+}*/
