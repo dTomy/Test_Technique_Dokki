@@ -3,8 +3,8 @@ import React, { Component } from 'react'
 export default class 
  extends Component {
   render() {
-    return (
-      <div className='card card-body mb-3'>
+    return ( // Affichage bootstrap avec une card (simplification de l'affichage) 
+      <div className='card card-body mb-3'> 
         <h4>{this.props.prenom} <br/>
         {this.props.nom}<br/>
         {this.props.maiden}
