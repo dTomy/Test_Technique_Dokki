@@ -70,7 +70,7 @@ export default class
                 prenom={user.firstName}
                 nom={user.lastName}
                 maiden={user.maidenName}
-                email={user.maidenName}
+                email={user.email}
                 username={user.username}
                 birthday={user.birthDate}
                 gender={user.gender}
