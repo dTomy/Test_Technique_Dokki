@@ -3,7 +3,7 @@ import User from './User.js'
 export default class 
  extends Component {
 
-    state = {
+    state = { // Changement de technique, je n'arrive pas à récupérer les infos de l'api, je choisi donc de tester mon code avec des données fix (copie de l'api)
         users: [
             {
                 id:	1,
@@ -70,7 +70,7 @@ export default class
                 prenom={user.firstName}
                 nom={user.lastName}
                 maiden={user.maidenName}
-                email={user.maidenName}
+                email={user.email}
                 username={user.username}
                 birthday={user.birthDate}
                 gender={user.gender}

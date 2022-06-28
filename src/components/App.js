@@ -55,6 +55,7 @@ class App extends React.Component {
     </div>
 	);
   }
+  Code pour lien avec API direct, ne fonctionne pas, à corriger
 */
 	}
 }
